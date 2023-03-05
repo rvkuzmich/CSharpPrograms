@@ -9,8 +9,8 @@ int[,] SpiralFill(int m, int n)
 {
     int[,] matrix = new int[m, n];
     int l = 1;
-    int i=0;
-    int j=0;
+    int i = 0;
+    int j = 0;
     for (j = 0; j < n; j++)
     {
         matrix[0, j] = l;
@@ -36,9 +36,9 @@ int[,] SpiralFill(int m, int n)
         matrix[1, j] = l;
         l++;
     }
-    for(j=2; j>=n-3; j--)
+    for (j = 2; j >= n - 3; j--)
     {
-        matrix[2,j]=l;
+        matrix[2, j] = l;
         l++;
     }
     return matrix;
@@ -55,5 +55,5 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] spiralMatrix=SpiralFill(4,4);
+int[,] spiralMatrix = SpiralFill(4, 4);
 PrintMatrix(spiralMatrix);

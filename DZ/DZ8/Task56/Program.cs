@@ -69,4 +69,4 @@ PrintMatrix(myMatrix);
 System.Console.WriteLine();
 var stringSumArray = StringSumArray(myMatrix);
 var minSumString = FindMinSumString(stringSumArray);
-System.Console.WriteLine($"Минимальная сумма элементов массива находится на строке {minSumString+1}");
+System.Console.WriteLine($"Минимальная сумма элементов массива находится на строке {minSumString + 1}");
