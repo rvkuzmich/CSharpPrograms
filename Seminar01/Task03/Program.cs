@@ -8,27 +8,27 @@ if (day == 1)
 {
     System.Console.WriteLine("Понедельник");
 }
-else if (daynumber == 2)
+else if (day == 2)
 {
     System.Console.WriteLine("Вторник");
 }
-else if (daynumber == 3)
+else if (day == 3)
 {
     System.Console.WriteLine("Среда");
 }
-else if (daynumber == 4)
+else if (day == 4)
 {
     System.Console.WriteLine("Четверг");
 }
-else if (daynumber == 5)
+else if (day == 5)
 {
     System.Console.WriteLine("Пятница");
 }
-else if (daynumber == 6)
+else if (day == 6)
 {
     System.Console.WriteLine("Суббота");
 }
-else if (daynumber == 7)
+else if (day == 7)
 {
     System.Console.WriteLine("Воскресенье");
 }
