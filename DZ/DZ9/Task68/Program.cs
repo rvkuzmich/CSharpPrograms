@@ -8,11 +8,11 @@ int ReadInt(string text)
     System.Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
-int Akkerman (int num1, int num2)
+int Akkerman(int num1, int num2)
 {
-    if (num1 == 0) return num2+1;
-    else if (num1>0 && num2==0) return Akkerman (num1-1, 1);
-    else return Akkerman (num1-1, Akkerman(num1, num2-1));
+    if (num1 == 0) return num2 + 1;
+    else if (num1 > 0 && num2 == 0) return Akkerman(num1 - 1, 1);
+    else return Akkerman(num1 - 1, Akkerman(num1, num2 - 1));
 }
 
 int num1 = ReadInt("Введите первое число: ");
